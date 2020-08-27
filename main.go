@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/kapustaprusta/leetcode/solutions/easy"
+	"github.com/kapustaprusta/leetcode/solutions"
 )
 
 func main() {
 	nums := []int{12, 1, 12, 1}
-	fmt.Println(easy.Shuffle(nums, 2))
+	fmt.Println(solutions.Shuffle(nums, 2))
 }
